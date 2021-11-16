@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>University Website</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/about">ABOUT</a></li>
+                    <li><a href="/courses">COURSE</a></li>
+                    <li><a href="/blog">BLOG</a></li>
+                    <li><a href="/Contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <!-- --------------Courses page---------------- -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, dolores.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eos deserunt tempore repudiandae
+                    numquam, rerum, eaque ab ducimus magni amet animi nam dignissimos eveniet est repellat porro,
+                    expedita fugit! Voluptas?</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eos deserunt tempore repudiandae
+                    numquam, rerum, eaque ab ducimus magni amet animi nam dignissimos eveniet est repellat porro,
+                    expedita fugit! Voluptas?</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eos deserunt tempore repudiandae
+                    numquam, rerum, eaque ab ducimus magni amet animi nam dignissimos eveniet est repellat porro,
+                    expedita fugit! Voluptas?</p>
+            </div>
+        </div>
+    </section>
+<!-- -----------Facilities page--------- -->
+<section class="facility">
+    <h1>Our Facility</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, dolores.</p>
+
+    <div class="row">
+        <div class="facility-col">
+            <img src="img/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi eveniet sequi nesciunt quos
+                obcaecati pariatur saepe eius, eaque asperiores blanditiis!</p>
+        </div>
+        <div class="facility-col">
+            <img src="img/library.png">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi eveniet sequi nesciunt quos
+                obcaecati pariatur saepe eius, eaque asperiores blanditiis!</p>
+        </div>
+        <div class="facility-col">
+            <img src="img/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi eveniet sequi nesciunt quos
+                obcaecati pariatur saepe eius, eaque asperiores blanditiis!</p>
+        </div>
+    </div>
+</section>
+
+    <!-- -------------------footer------------------------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus excepturi iusto eligendi dolorem ut minus blanditiis enim magni.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> By Analytical Blog </p>
+    </section>
+
+
+    <!-- -----------------JavaScript for toggle menu---------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+
+</body>
+
+</html>
